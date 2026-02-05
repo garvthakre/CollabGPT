@@ -45,6 +45,11 @@ const LandingPage = () => {
             </div>
         <div className="flex items-center gap-2 md:flex-row flex-col">
           <button 
+            className="px-4 py-2 text-sm font-semibold text-slate-600 border-2 rounded-lg hover:text-indigo-600 transition-colors cursor-pointer"
+          >
+           {isServerActiveMsg}
+          </button>
+          <button 
             onClick={() => navigate('/login')}
             className="px-4 py-2 text-sm font-semibold text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer"
           >
