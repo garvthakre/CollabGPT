@@ -281,7 +281,7 @@ const LandingPage = () => {
                 <div className="text-left">
                   <h4 className="font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">Garv Thakre</h4>
                   <div className="flex gap-3 mt-2  justify-center items-center">
-                    <a href="https://garvthakreportfolio.netlify.app" className="text-slate-400 hover:text-slate-900 transition-colors">Portfolio</a>
+                    <a href="https://g-forge.vercel.app/" className="text-slate-400 hover:text-slate-900 transition-colors">Portfolio</a>
                     <a href="https://github.com/garvthakre" className="text-slate-400 hover:text-slate-900 transition-colors"><Github className="h-7 w-7" /></a>
                   </div>
                 </div>
